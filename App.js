@@ -10,7 +10,7 @@ import HomeIcon from 'react-native-vector-icons/Ionicons';
 import InboxIcon from 'react-native-vector-icons/Ionicons'; 
  
 export default function App() { 
-  const [url, setUrl] = useState('https://todos-1-nxm3.onrender.com/'); 
+  const [url, setUrl] = useState('https://todos-tath.onrender.com'); 
   const [webKey, setWebKey] = useState(1); 
   const [notInboxData, setNotInboxData] = useState([]); 
   const [unreadNotificationCount, setUnreadNotificationCount] = useState(0); 
